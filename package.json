@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-      "serve": "http-server ./src"
+    "serve": "http-server ./src"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
 }
