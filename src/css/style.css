@@ -31,6 +31,7 @@
 }
 
 .service-card {
+    cursor: pointer;
     position: relative;
     #bgIcon {
         position:absolute;
@@ -40,10 +41,10 @@
 
 .service-card:hover {
     color: var(--bs-light);
-    transition: all 300ms ease-out both;
+    transition: all 300ms ease-out;
     p {
         color: var(--bs-light) !important;
-        transition: all 300ms ease-out both;
+        transition: all 300ms ease-out;
     }
     #bgIcon {
         padding: 2rem !important;
